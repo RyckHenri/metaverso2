@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bg.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #101010;
+}
+
+header {
+    width: 100vw;
+    height: 19vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+    padding-left: 4rem;
+}
+
+.logo img {
+    width: 50%;
+}
+
+nav {
+    width: 70%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a.home {
+    color: orangered;
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    color: #fff;
+
+}
+
+.cta {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.cta h1 {
+    font-size: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.cta p{
+    padding-left: 4rem;
+    padding-right: 11rem;
+    line-height: 2rem;
+}
+
+.cta .input {
+    padding-left: 4rem;
+}
+
+.cta .input a{
+    background-color: #fff;
+    color: orangered;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+    border-radius:4rem;
+}
+
+.cta .input a.btn {
+    color: #fff;
+    background: linear-gradient(yellow , orange , orangered);
+}
+
+.slider {
+    width: 50%;
+    height: 520px;
+    margin-top: 1rem;
+
+}
+
+.legend {
+    color :#101010;
+    width: 400px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-color: #fff;
+    margin: -88px 0 0 50px;
+    position: relative;
+    z-index: 9;
+    padding: 1.5rem 4rem;
+    font-weight: 600;
+    font-size: 0,8rem;
+    opacity: o.8;
+
+
+}
+
+.slider img {
+    width: 500px;
+    height: 520px;
+    margin-top: 1rem;
+}
+
+.social-midia {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.social-midia div {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    margin-top: .2rem;
+}
+
+.social-midia div img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-midia p {
+    position: absolute;
+    font-weight: 700;
+    transform: rotate(90deg) translateX(-160%);
+}
